@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.gamedevmarket.net/cover-images/ve4sWlWxtUpDTJLcMyALv09vSDaBWps1ghRrPAuk.jpg);
+    background-size: 100%;
+}
+
+.header {
+    color: white;
+    margin: 0 40px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(27, 27, 27, 0.9);
+    border-radius: 15px;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    
+}
+
+.logo {
+    justify-content: left;
+    
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.menu li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#buttons {
+    justify-content: end;
+}
